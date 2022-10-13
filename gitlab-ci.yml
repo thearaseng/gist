@@ -1,0 +1,7 @@
+stages:
+  - build
+
+publish:
+  stage: build
+  script:
+    - echo $CI_COMMIT_BRANCH
